@@ -1,0 +1,188 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0x1E9Db4b2809E2B57124e84Bda3588af6b6d52981",
+    "txHash": "0xa86890ff680e8c02fa81d01c57a2622711f14b4c7089261e4070da1175f5837e"
+  },
+  "proxies": [
+    {
+      "address": "0xBCACAFEdBe097EDeFF396de5328f683481E051E5",
+      "txHash": "0x6ede406fdb7bd2a8731c9b9cc1ffd92ae18617d3f0c4ee080bb6027bc264c85e",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xFf2D9452dc9E4E5FaC1C7F4D1302E80B9799D716",
+      "txHash": "0x72a35e5a5d13cb78989b6fad00177dbd3bcc7d0ca92bb17c9b51e40295ead025",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x5cf5c5e8BC19ea89b634058a7e2F45672F99AC19",
+      "txHash": "0x70da86bd432ed4a7a4e6555e15a657c0af052fe4e4141174043c2097d5671cba",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x58A1623c1e24d63a5BF3988A725D91d0A2379d3A",
+      "txHash": "0x8cbfb18f53c3f544190a0d12ef0ec9832a430d5f5e7b54729576b5e420dbb2c7",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x6DBF34675FB5aFC7747be1255388333E12AeF445",
+      "txHash": "0xaeb0a4b1edad695f38505ccf1ba0627b6a01d29a797b5aa973a98dcb538da7dd",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xC7B090318e879a8860266E5Fd18009723350f3C0",
+      "txHash": "0xb975aac441df8d970a5293eef1673e429935623a90b321f6be009ad1f0e1353d",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "ab12f835b301a256a16602c0baedb15ab9ec377595997904c2a5a4949478e1c7": {
+      "address": "0x42bc68254dC63cA597092b285F2925106c3073Dc",
+      "txHash": "0xb6d732233548a43dd1435859cfe4447400eb680e5b94a974b020ee173dc77883",
+      "layout": {
+        "solcVersion": "0.8.2",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable-442/proxy/utils/Initializable.sol:39"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable-442/proxy/utils/Initializable.sol:44"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable-442/utils/ContextUpgradeable.sol:31"
+          },
+          {
+            "label": "_admin",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_address",
+            "contract": "WithAdminV2",
+            "src": "contracts/sandbox/lib/WithAdminV2.sol:8"
+          },
+          {
+            "label": "_superOperators",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "WithSuperOperatorsV2",
+            "src": "contracts/sandbox/lib/WithSuperOperatorsV2.sol:9"
+          },
+          {
+            "label": "_numNFTPerAddress",
+            "offset": 0,
+            "slot": "53",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "ERC721BaseTokenV2",
+            "src": "contracts/sandbox/lib/ERC721BaseTokenV2.sol:27"
+          },
+          {
+            "label": "_owners",
+            "offset": 0,
+            "slot": "54",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "contract": "ERC721BaseTokenV2",
+            "src": "contracts/sandbox/lib/ERC721BaseTokenV2.sol:28"
+          },
+          {
+            "label": "_operatorsForAll",
+            "offset": 0,
+            "slot": "55",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_bool))",
+            "contract": "ERC721BaseTokenV2",
+            "src": "contracts/sandbox/lib/ERC721BaseTokenV2.sol:29"
+          },
+          {
+            "label": "_operators",
+            "offset": 0,
+            "slot": "56",
+            "type": "t_mapping(t_uint256,t_address)",
+            "contract": "ERC721BaseTokenV2",
+            "src": "contracts/sandbox/lib/ERC721BaseTokenV2.sol:30"
+          },
+          {
+            "label": "_minters",
+            "offset": 0,
+            "slot": "57",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "PolygonLandBaseToken",
+            "src": "contracts/sandbox/lib/PolygonLandBaseToken.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "58",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "PolygonLandBaseToken",
+            "src": "contracts/sandbox/lib/PolygonLandBaseToken.sol:622"
+          },
+          {
+            "label": "_trustedForwarder",
+            "offset": 0,
+            "slot": "107",
+            "type": "t_address",
+            "contract": "ERC2771Handler",
+            "src": "contracts/sandbox/lib/ERC2771Handler.sol:9"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_bool))": {
+            "label": "mapping(address => mapping(address => bool))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_address)": {
+            "label": "mapping(uint256 => address)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_uint256)": {
+            "label": "mapping(uint256 => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    }
+  }
+}
